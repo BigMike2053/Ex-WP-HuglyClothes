@@ -1,0 +1,211 @@
+/*
+Theme Name: Hugly Clothes
+Theme URI: http://wordpress.org/themes/
+Author: Moi
+Author URI: http://wordpress.org/
+Description: super e-boutique
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: huglyclothes
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import "slick.css";
+
+@font-face {
+    font-family: Dosis;
+    src: url("fonts/Dosis.ttf");
+}
+
+h2{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: #0a958f;
+}
+
+h1{
+    text-align: center;
+}
+
+/*NAVBAR*/
+
+.sup_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.nav-link:hover{
+    font-size: 1.5rem;
+}
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+
+/*LOGO*/
+
+.custom-logo{
+    transition: 3s;
+}
+
+.custom-logo:hover{
+    transform: rotate(1000deg);
+}
+
+.custom-logo-link {
+    height: 7rem;
+    width: 7rem;
+}
+
+.custom-logo {
+    height: 7rem;
+    width: 7rem;
+}
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__title {
+    color: white;
+}
+
+.header__description {
+    color: white;
+}
+
+.publicity{
+    height: 100vh;
+    width: 90vw;
+}
+
+.article_img img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.etiquette {
+    color: #0a958f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article_btn {
+    background-color: #0a958f;
+    color: white;
+    border: white solid 1px;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.article_btn:hover {
+    background-color: white;
+    color: #0a958f;
+    border: #0a958f solid 1px;
+    transition: 0.5s;
+}
+
+.article_bgc {
+    background-color: #2d3e51;
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+    border: transparent solid 0.1rem;
+    /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);*/
+    transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+}
+
+.article_bgc:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-color: #0a958f;
+}
+
+footer {
+    background-color: #3b434a;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+
+.site-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.store_img img{
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.store_infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.store_title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0a958f;
+    margin: 1rem;
+}
+
+.store_description{
+    text-align: center;
+}
+
+.store_city{
+    background-color: orangered;
+    display: inline-block;
+    color: white;
+    border-radius: 10%;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
+
+.product_title{
+    font-size: 1.5rem;
+}
+
+.product_price{
+    font-size: 1rem;
+    color: orangered;
+}
+
+
+.price{
+    text-align: center;
+}
